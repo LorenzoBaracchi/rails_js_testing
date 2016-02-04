@@ -1,0 +1,14 @@
+
+<h1>List of People</h1>
+
+<div class="table">
+<% @people.each do |person| %>
+  <div class="person" id="<%=person.id%>">
+    <strong><%= person.name %></strong>  Age:<%= person.age %>
+    <div class="bio hidden">
+      Bio:
+      <div class="bio_content"></div>
+    </div>
+  </div>
+<% end %>
+</div>

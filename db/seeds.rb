@@ -5,3 +5,6 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+Person.create(name: 'Lorenzo', age: 26, bio: 'A short bio that says nothing at all!')
+Person.create(name: 'lollo', age: 1, bio: 'while(true) { cry eat sleep poop }')

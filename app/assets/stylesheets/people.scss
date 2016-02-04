@@ -1,0 +1,24 @@
+// Place all the styles related to the People controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.people {
+  .table {
+    width: 100%;
+
+    .person {
+      width: 90%;
+      background-color: #eaeaea;
+      margin: 2px;
+      padding: 10px;
+    }
+
+    .person:hover {
+      background-color: #ddd;
+    }
+
+    .hidden {
+      display: none;
+    }
+  }
+}
