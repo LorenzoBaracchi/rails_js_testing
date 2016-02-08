@@ -1,0 +1,5 @@
+person1:
+  id: 1
+  name: A name
+  age: 1234
+  bio: I am a bio for a person
