@@ -38,4 +38,5 @@
 // window.assert = chai.assert;
 // window.expect = chai.expect;
 // window.should = chai.should();
+//= require magic_lamp
 window.expect = chai.expect;
