@@ -24,8 +24,8 @@ describe('People', function() {
   it('should set bio description', function() {
     expect($('#1 .bio .bio_content').text()).to.equal('');
 
-    setBio(1, 'a beatiful description');
-    expect($('#1 .bio .bio_content').text()).to.equal('a beatiful description');
+    setBio(1, 'a beautiful description');
+    expect($('#1 .bio .bio_content').text()).to.equal('a beautiful description');
   });
 
 });
